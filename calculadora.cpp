@@ -10,4 +10,15 @@ int main() {
     cout << "3. Multiplicacion" << endl;
     cout << "4. Division" << endl;
     cin >> opcion;
+
+    switch(opcion) {
+        case 1:
+            resultado = n1 +n2;
+            cout << "La suma de los numeros es: " << resultado << endl;
+        break;
+        case 2:
+            resultado = n1 - n2;
+            cout << "La resta de los numeros es: " << resultado << endl;
+        break;
+    }
 }
